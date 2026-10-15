@@ -1,0 +1,34 @@
+:root {
+  --slidev-theme-primary: #ffda18;
+}
+
+.slidev-layout {
+  background: #0b0d0f;
+}
+
+/* the built-in end layout sets a scoped bg-black that outranks the rule above */
+.slidev-layout.end {
+  background: #0b0d0f !important;
+}
+
+.slidev-layout.statement h1,
+.slidev-layout.cover h1 {
+  line-height: 1.2;
+}
+
+.slidev-layout.statement h1 {
+  font-size: 2.6em;
+}
+
+.slidev-layout strong {
+  color: var(--slidev-theme-primary);
+}
+
+.slidev-layout pre {
+  font-size: 0.8em;
+}
+
+.slidev-layout h1 code,
+.slidev-layout p code {
+  background: transparent;
+}
